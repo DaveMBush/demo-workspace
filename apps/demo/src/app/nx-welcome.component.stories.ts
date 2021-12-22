@@ -6,13 +6,12 @@ export default {
   component: NxWelcomeComponent,
   decorators: [
     moduleMetadata({
-      imports: [],
+    declarations: [NxWelcomeComponent],
     })
   ],
 } as Meta<NxWelcomeComponent>;
 
 const Template: Story<NxWelcomeComponent> = (args: NxWelcomeComponent) => ({
-  component: NxWelcomeComponent,
   props: args,
 });
 
