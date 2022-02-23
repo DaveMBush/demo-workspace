@@ -1,5 +1,5 @@
 module.exports = {
-  stories: [],
+  stories: ["../apps/**/*.stories.ts"],
   addons: ['@storybook/addon-essentials'],
   // uncomment the property below if you want to apply some webpack config globally
   // webpackFinal: async (config, { configType }) => {
